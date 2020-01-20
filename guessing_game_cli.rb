@@ -1,5 +1,5 @@
 def run_guessing_game
-  random_number = (rand(7)).to_s
+  random_number = (rand(6) + 1).to_s
   user_guess_prompt = "Guess a number between 1 and 6:"
   puts user_guess_prompt
   input = gets.chomp 
